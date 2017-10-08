@@ -17,16 +17,22 @@ a {
   color: blue;
 }
 
-h2, p, li {
-  color: #green;
+li {
+  font-size: 25px;
+  font-style:italic;
 }
 
 p{
-  background: #666;
-  color: white;
-  padding: 10px 0px;
-}
-.secondary {
   background: green;
-  color: black;
+  color: white;
+  padding: 10px;
+}
+
+#nav {
+  background: yellow;
+  font-family: cursive;
+  color: white;
+  text-align:center;
+  font-size: 15px;
+  font-weight: bold;
 }
