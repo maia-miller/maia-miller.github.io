@@ -52,6 +52,15 @@ div {
   left: 5em;
 }
 
+/* ======================Styling====================== */
+.sub {
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  font-style: normal;
+  padding: 10px;
+}
+
 /* ======================Navigation====================== */
 #nav {
   background: yellow;
