@@ -1,11 +1,29 @@
+/* ======================Background====================== */
+
 body {
     background: #45094a;
     font-family: sans-serif;
   }
 
+/* ======================Typography====================== */
+
 h1 {
-  text-align: center;
-  font-family: inherit;
+    position: fixed;
+    left:-.1em;
+    top:0;
+    width: .5em;
+    font-size: 48px;
+    line-height: .8;
+    text-align: center;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    text-shadow: 0 0 48px rgba(0,0,0,0.3);
+    -webkit-transition: all 0.2s ease-out;
+       -moz-transition: all 0.2s ease-out;
+        -ms-transition: all 0.2s ease-out;
+         -o-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
+  font-family: Georgia;
   color: yellow;
 }
 
@@ -22,12 +40,19 @@ li {
   font-style:italic;
 }
 
-p{
+p {
   background: green;
   color: white;
   padding: 10px;
 }
 
+/* ======================Spacing====================== */
+div {
+  position: relative;
+  left: 5em;
+}
+
+/* ======================Navigation====================== */
 #nav {
   background: yellow;
   font-family: cursive;
