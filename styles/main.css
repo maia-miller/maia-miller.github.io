@@ -4,5 +4,8 @@
 
 .one-third {
   display:block;
+}
 
+img {
+  padding: 2px;
 }
