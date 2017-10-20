@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url(https://i.pinimg.com/originals/2e/fa/61/2efa61c5bd8a15003c9a1fee908d402f.jpg);
+  background-image: url(https://lostandtaken.com/wp-content/uploads/edd/2016/02/vintage-paper-wallpaper-texture-17.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,7 +16,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 100px;
+  padding-top: 5em;
+  padding-bottom: 5em;
   margin-bottom: .5em;
   width: 100%;
 }
@@ -34,10 +35,10 @@ body {
   margin-bottom: .5em;
   padding: .5em;
   padding-bottom: 2em;
+  color: white;
 }
 
 .one-third {
-  display:block;
   position: relative;
 }
 
