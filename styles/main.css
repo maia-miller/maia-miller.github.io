@@ -46,3 +46,8 @@ body {
 }
 
 /* ===== BLOG POST IMAGES =====*/
+.blog-img {
+  display: block;
+  text-align: center;
+  margin: 2.5rem auto 0;
+}
