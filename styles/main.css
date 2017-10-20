@@ -5,7 +5,6 @@
 body {
   background-image: url(https://lostandtaken.com/wp-content/uploads/edd/2016/02/vintage-paper-wallpaper-texture-17.jpg);
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   height: 100%;
@@ -15,8 +14,7 @@ body {
 .section-hero {
   background-image: url(http://craftburgercromer.co.uk/wp-content/uploads/2016/08/Wood-Background1-1024x699.jpg);
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   position: relative;
   padding-top: 5em;
   padding-bottom: 5em;
@@ -41,11 +39,7 @@ body {
   color: white;
 }
 
-.one-third {
-  display: block;
-  width: 100%;
-}
-
 img {
-  padding: 2px;
+  display: block;
+  text-align: center;
 }
