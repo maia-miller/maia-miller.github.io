@@ -46,38 +46,3 @@ body {
 }
 
 /* ===== BLOG POST IMAGES =====*/
-/*work in progress
-img {
-  display: block;
-  margin: 0 auto;
-  width: 500px;
-  height: 300px;
-  margin-bottom: 10px;
-/* **want it to span the whole screen ** */
-}
-
-/* Larger than phablet (also point when grid becomes active) */
-/*@media only screen and (min-width: 550px) {
-  .left {
-    float: left;
-    width: 48%;
-  }
-
-  .right {
-    float: right;
-    width: 48%;
-  }
-
-size2 {
-  width: 100%;
-}
-
-/* Larger than tablet */
-@media only screen and (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
-  */
