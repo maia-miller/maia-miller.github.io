@@ -2,6 +2,7 @@
   font-family: 'Bad Script', cursive;
 }
 
+/* ===== BACKGROUND IMAGE ===== */
 body {
   background-image: url(https://lostandtaken.com/wp-content/uploads/edd/2016/02/vintage-paper-wallpaper-texture-17.jpg);
   background-position: center;
@@ -11,6 +12,7 @@ body {
   width: 100%;
 }
 
+/* ===== HERO AND HEADER ===== */
 .section-hero {
   background-image: url(http://craftburgercromer.co.uk/wp-content/uploads/2016/08/Wood-Background1-1024x699.jpg);
   background-position: center;
@@ -30,6 +32,10 @@ body {
   color: black;
 }
 
+.container p, h2 {
+  width: 100%;
+}
+
 .section-description {
   text-align: center;
   margin: auto;
@@ -39,7 +45,4 @@ body {
   color: white;
 }
 
-img {
-  display: block;
-  text-align: center;
-}
+/* ===== BLOG POST IMAGES =====*/
