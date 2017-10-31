@@ -46,3 +46,12 @@ body {
 }
 
 /* ===== BLOG POST IMAGES =====*/
+.columns {
+  margin-left: 0%;
+  padding: 2%;
+}
+
+img {
+  width: 100%;
+  margin: auto;
+}
