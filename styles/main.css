@@ -57,7 +57,7 @@ body {
   line-height: 26pt;
 }
 
-.section-sideheading {
+.section-sideheadtext {
   text-align: center;
   padding-top: 100%;
   margin: auto;
@@ -106,4 +106,9 @@ li {
 
 .section-nav {
   background-image: url(http://craftburgercromer.co.uk/wp-content/uploads/2016/08/Wood-Background1-1024x699.jpg);
+}
+
+.section-nav a {
+  color: #fff;
+  text-decoration: none;
 }
