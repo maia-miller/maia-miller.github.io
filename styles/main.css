@@ -55,6 +55,7 @@ body {
   height: 90%;
   text-align: center;
   line-height: 26pt;
+  z-index: 10;
 }
 
 .section-sideheadtext {
@@ -91,6 +92,11 @@ img {
 li {
   text-transform: uppercase;
   font-weight: bolder;
+}
+
+.sub {
+  text-transform: none;
+  font-weight: 500;
 }
 
 /* ===== FOOTER =====*/
