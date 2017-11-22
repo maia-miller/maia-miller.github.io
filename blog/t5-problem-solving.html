@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<!-- ========== Basic Page Needs ========== -->
+    <title>Blog 11 - Problem Solving</title>
+    <meta charset="UTF-8">
+
+<!-- ========== Mobile Specific Metas ========== -->
+
+<!-- ========== Font ========== -->
+<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+
+<!-- ========== CSS ========== -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+<link href="../styles/main.css" rel="stylesheet" type="text/css" />
+
+<!-- ========== Scripts ========== -->
+
+<!-- ========== Favicon ========== -->
+
+  </head>
+
+  <body>
+<!-- ========== Header ========== -->
+<div class="section-sideheader">
+  <div class="container">
+    <h1 class="section-sideheadtext"><strong>Blog 11 - Problem Solving</strong></h1>
+  </div>
+</div>
+
+<!-- ========== Blog Content ========== -->
+<div class="container">
+  <div class="blog">
+    <div class="row">
+      <div class="ten columns">
+        <ul>
+          <li>Tell your friend about a time you got blocked on a simple problem</li>
+            <ul class="sub">
+              <li class="sub">What was the problem?</li>
+                <p>
+                  In one of the first sprints, I was learning how to use Command Line. The task was asking me to create new files, move them around, and delete them, all through Command Line. Things were running relatively smoothly until I tried to move one file that kept producing an error!
+                </p>
+              <li class="sub">What problem solving techniques did you use?</li>
+              <p>
+                I changed the way I wrote out the command, moved other files around successfully, went in and out of the folders I was using, and could not figure out what was going on. Eventually, I posted my issue on Slack. It turns out that I had simply misspelled the file name, so I when I was trying to move the correctly-spelled file, it was calling upon something that didn't actually exist.
+              </p>
+              <li class="sub">How did you feel throughout the process?</li>
+              <p>
+                Fortunately the issue didn't last for <em>that</em> long, so I grew frustrated but not as frustrated as I have been for other, bigger problems that I have had trouble figuring out.
+              </p>
+              <li class="sub">What did you learn?</li>
+              <p>I learned the importance of spelling! Especially when so much of our code is being written out (specifically when we're naming new things), it's easy to mispell words, lose a letter, etc. The first thing I check now when I get an error is if I spelled all my commands accurately!
+              </p>
+            </ul>
+          <li>Tell your friend about a time you solved a problem in an elegant way</li>
+          <ul class="sub">
+            <li class="sub">What was the problem?</li>
+            <p>
+              One problem that I solved in an elegant way was one of the exercises from Eloquent JavaScript. It asked you two write a program that listed all numbers from 1-100, but replace numbers that are divisible by 3, 5, and boh 3 and 5 with a silly word instead of the number itself.
+            </p>
+            <li class="sub">What problem solving techniques did you use?</li>
+            <p>
+              To solve this problem, I wrote out what needed to happen in plain English. I then replaced my words and sentences with code. For one piece of the solution, I scrolled up where there was a reference made earlier to something similar, and I borrowed that hint.
+            </p>
+            <li class="sub">How did you feel throughout the process?</li>
+            <p>
+              I felt good. It was a challenge that was difficult but not overwhelmingly so. I stubled a bit here and there, but overall was able to work my way through the issue with enough time and without pulling out any hair.
+            </p>
+            <li class="sub">What did you learn?</li>
+            <p>
+              I learned that I can do it! I learned that I actually learned something - yay! I also learned that writing things out in plain English is a helpful way to start breaking down a coding problem.
+            </p>
+          </ul>
+          <li>Reflect on how confident you feel using the problem solving techniques and process:</li>
+          <ul class="sub">
+            <li class="sub"><strong>Pseudocode: </strong>I learn through doing, so I have found Sprint 5's exercises and putting things into practice really helpful in enhancing my understanding of JS.</li>
+            <li class="sub"><strong>Trying something: </strong>As mentioned above, this is definitely my go-to method of problem solving.</li>
+            <li class="sub"><strong>Rubber ducky method: </strong>I also really like this method of problem solving/enhancing understanding. The degree to which I'm able to explain a concept is an indication of how much I understand it. When I review my notes, I try to rephrase things to see if I can do that. This method is a great way to check in with yourself - a "self-assessment" if you will - to see where you're at.</li>
+            <li class="sub"><strong>Reading error messages: </strong> Not very helpful. I can often receive the same error message even after I make a change, so I don't find it useful.</li>
+            <li class="sub"><strong>Console.logging: </strong> I don't really know yet how this can help with problem solving.</li>
+            <li class="sub"><strong>Googling: </strong> Definintely! That's probably my first resource after my own notes when trying to figure out how to do something.</li>
+            <li class="sub"><strong>Asking your peers for help: </strong> Moderately. I try to solve things on my own first, because I feel like that contributes to my learning the most. I have learned that asking earlier in my process when I'm stuck is better than later, because if I wait too long I become too exasperated to work with the help that is being offered.</li>
+            <li class="sub"><strong>Asking coaches for help: </strong>Ditto as above.</li>
+            <li class="sub"><strong>Improving your process with reflection: </strong> I think the reflections are similar to the rubber duck method in that you reflect upon how much you understand something.</li>
+          <li>Describe what these functions do in your own words:</li>
+          <ul class="sub">
+            <li class="sub"><strong>.map()</strong> - this function applies a secondary function to every element within an array, and then outputs that result into a new array. For example, you have <code> function double = x * 2 </code> that you want to apply to all the numbers inside an array. First, you define your array and your function (in this case, <code>double</code>). Then, call .map(): <code>var mapped = array.map(double(array))</code>. The output will be a <em>new</em> array that is made up of the old array elements each multiplied by 2.</li>
+            <li class="sub"><strong>.filter()</strong> - this function is as it sounds: it creates a new array containing all the elements of an array that pass through a given filter. Here, you have to define what that filter is first, and then apply .filter to your array.</li>
+            <li class="sub"><strong>.reduce()</strong> - this function runs through an array, comparing each element to the array and reducing that element to a value. That value is accummulated, meaning the value gets added to previously returned values. Often this can look like adding the given value to the sum total of the previous array elements. If the <code>array = [0,1,2,3]</code>, when we pass it through the .reduce() function, <code>0</code> gets added to <code>1</code> to get a sum of 1. Then <code>2</code> gets added to the accummulated value (in this case, <code>1</code>) to return <code>3</code>. Then <code>3</code> gets added to our previous total, <code>3</code> to output <code>6</code>. Each element within the array gets added to the accumulation of previous elements in order to <em>reduce</em> the array elements to one value.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ========== Footer ========== -->
+<div class="section-nav">
+  <div class="container">
+    <h1 class="section-heading"><strong><a href="../index.html">Home</a></strong></h1>
+  </div>
+</div>
+
+
+</body>
+</html>
