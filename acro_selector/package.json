@@ -1,0 +1,31 @@
+{
+  "name": "acro-selector",
+  "version": "1.0.0",
+  "description": "Randomly generate an acro pose",
+  "main": "index.js",
+  "scripts": {
+    "debug": "nodemon --inspect index --ignore data.json",
+    "test": "jest --watch --noStackTrace",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Maia",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "express-router": "^0.0.1",
+    "handlebars": "^4.0.11",
+    "node": "^9.4.0",
+    "path": "^0.12.7",
+    "router": "^1.3.2",
+    "path":"^0.12.7"
+  },
+  "devDependencies": {
+    "jest": "^22.1.4",
+    "nodemon": "^1.14.11"
+  }
+}

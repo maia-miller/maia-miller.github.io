@@ -1,0 +1,18 @@
+{
+  "poses": [
+    {
+      "id": 1,
+      "name": "Ninja Star",
+      "type": "Washing Machine",
+      "difficulty": "Easy",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "London Spin",
+      "type": "Washing Machine",
+      "difficulty": "Easy",
+      "image": ""
+    }
+  ]
+}
